@@ -1,7 +1,7 @@
 # code your #position_taken? method here!
 position_taken?(board, index)
-  if array[index_number] == " "
+  if board[index] == " "
     return false
-  else array[index_number] != " "
+  else board[index] != " "
     return true
 end

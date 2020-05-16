@@ -1,7 +1,7 @@
 # code your #position_taken? method here!
 position_taken?(board, index)
-  if index == " "||"" || nil
+  if board[index] == " "||"" || nil
     return false
-  else index != " " || "" || nil
+  else board[index] != " " || "" || nil
     return true
 end

@@ -1,4 +1,4 @@
 # code your #position_taken? method here!
-position_taken?(index)
-  if index = " "
+position_taken?(board, index)
+  if index = " " || index = ""
     return false

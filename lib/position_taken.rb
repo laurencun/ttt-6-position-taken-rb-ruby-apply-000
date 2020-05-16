@@ -4,5 +4,4 @@ position_taken?(board, index)
     return false
   else array[index_number] != " "
     return true
-  end
-end  
+end

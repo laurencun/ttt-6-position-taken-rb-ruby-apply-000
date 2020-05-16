@@ -5,3 +5,4 @@ position_taken?(board, index)
   else !(board[index] == " " || board[index] == "" || board[index] == nil)
     taken true
 end
+taken
